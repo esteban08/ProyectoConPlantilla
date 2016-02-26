@@ -1,0 +1,199 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Espinosa-Gonzalez Project</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:400,300">
+
+    <link rel="stylesheet" href="@Url.Content("~/assets/bootstrap/css/bootstrap.min.css")">
+    <link rel="stylesheet" href="@Url.Content("~/assets/font-awesome/css/font-awesome.min.css")">
+    <link rel="stylesheet" href="@Url.Content("~/assets/css/animate.css")">
+    <link rel="stylesheet" href="@Url.Content("~/assets/ultimate-flat-social-icons/ultm-css/ultm.css")">
+    <link rel="stylesheet" href="@Url.Content("~/assets/css/form-elements.css")">
+    <link rel="stylesheet" href="@Url.Content("~/assets/css/style.css")">
+    <link rel="stylesheet" href="@Url.Content("~/assets/css/media-queries.css")">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js")"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js")"></script>
+    <![endif]-->
+    <!-- Favicon and touch icons -->
+    <link rel="shortcut icon" href="@Url.Content("~/assets/ico/favicon.png")">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="@Url.Content("~/assets/ico/apple-touch-icon-144-precomposed.png")">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="@Url.Content("~/assets/ico/apple-touch-icon-114-precomposed.png")">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="@Url.Content("~/assets/ico/apple-touch-icon-72-precomposed.png")">
+    <link rel="apple-touch-icon-precomposed" href="@Url.Content("~/assets/ico/apple-touch-icon-57-precomposed.png")">
+
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-img"></div>
+    </div>
+
+    <!-- Top menu -->
+    <nav>
+        <a class="scroll-link" href="#top-content">Top</a>
+        <a class="scroll-link" href="#subscribe">Subscribe</a>
+        <a class="scroll-link" href="#features">The project</a>
+        <a class="scroll-link" href="#testimonials">Testimonials</a>
+        <a class="scroll-link" href="#about-us">About</a>
+        <a class="scroll-link" href="#contact">Contact</a>
+        <div class="hide-menu">
+            <a href=""><i class="fa fa-bars"></i></a>
+        </div>
+    </nav>
+    <div class="show-menu">
+        <a href=""><i class="fa fa-bars"></i></a>
+    </div>
+
+    <!-- Top content -->
+    <div class="top-content">
+        <div class="inner-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text">
+                        <div class="logo wow fadeInDown">
+                            <a href="">Seria - Bootstrap Coming Soon Template</a>
+                        </div>
+                        <h1 class="wow fadeInLeftBig">We are coming soon</h1>
+                        <div class="description wow fadeInLeftBig">
+                            We are working very hard to add new features and improve the usability of our site.
+                            In the meantime scroll down to know a little more about this new project.
+                        </div>
+                        <div class="timer wow fadeInUp">
+                            <div class="days-wrapper">
+                                <span class="days"></span> <br>days
+                            </div>
+                            <span class="slash">/</span>
+                            <div class="hours-wrapper">
+                                <span class="hours"></span> <br>hours
+                            </div>
+                            <span class="slash">/</span>
+                            <div class="minutes-wrapper">
+                                <span class="minutes"></span> <br>minutes
+                            </div>
+                            <span class="slash">/</span>
+                            <div class="seconds-wrapper">
+                                <span class="seconds"></span> <br>seconds
+                            </div>
+                        </div>
+                        <div class="scroll-page wow fadeInUp">
+                            <a class="scroll-link" href="#subscribe"><i class="fa fa-chevron-down"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @RenderBody()
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7 footer-copyright">
+                    &copy; Seria Bootstrap Template by <a href="http://azmind.com">Azmind</a>.
+                </div>
+                <div class="col-sm-5 footer-social">
+                    <a class="ultm ultm-facebook ultm-32 ultm-square ultm-gray-to-color" href=""></a>
+                    <a class="ultm ultm-dribbble ultm-32 ultm-square ultm-gray-to-color" href=""></a>
+                    <a class="ultm ultm-twitter ultm-32 ultm-square ultm-gray-to-color" href=""></a>
+                    <a class="ultm ultm-google-plus-1 ultm-32 ultm-square ultm-gray-to-color" href=""></a>
+                    <a class="ultm ultm-pinterest ultm-32 ultm-square ultm-gray-to-color" href=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- MODAL: About the project -->
+    <div class="modal fade" id="modal-features" tabindex="-1" role="dialog" aria-labelledby="modal-features-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="modal-features-label">About the project</h4>
+                </div>
+                <div class="modal-body">
+                    <p><img src="@Url.Content("~/assets/img/modal/1.jpg")" alt="" data-at2x="@Url.Content("~/assets/img/modal/1.jpg")"></p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                    </p>
+                    <ul>
+                        <li>Easy To Use</li>
+                        <li>Awesome Design</li>
+                        <li>Cloud Based</li>
+                    </ul>
+                    <p>
+                        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+                        commodo consequat nostrud tation.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL: About our team -->
+    <div class="modal fade" id="modal-about-us" tabindex="-1" role="dialog" aria-labelledby="modal-about-us-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="modal-about-us-label">About our team</h4>
+                </div>
+                <div class="modal-body">
+                    <p><img src="@Url.Content("~/assets/img/modal/2.jpg")" alt="" data-at2x="@Url.Content("~/assets/img/modal/2.jpg")"></p>
+                    <p>
+                        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+                        commodo consequat nostrud tation.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Javascript -->
+    <script src="@Url.Content("~/assets/js/jquery-1.11.1.min.js")"></script>
+    <script src="@Url.Content("~/assets/bootstrap/js/bootstrap.min.js")"></script>
+    <script src="@Url.Content("~/assets/js/jquery.backstretch.min.js")"></script>
+    <script src="@Url.Content("~/assets/js/wow.min.js")"></script>
+    <script src="@Url.Content("~/assets/js/retina-1.1.0.min.js")"></script>
+    <script src="@Url.Content("~/assets/js/jquery.countdown.min.js")"></script>
+    <script src="@Url.Content("~/assets/js/scripts.js")"></script>
+
+    <!--[if lt IE 10]>
+        <script src="@Url.Content("~/assets/js/placeholder.js")"></script>
+    <![endif]-->
+
+</body>
+
+</html>
+
