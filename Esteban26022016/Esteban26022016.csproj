@@ -196,13 +196,10 @@
   <ItemGroup>
     <Content Include="assets\bootstrap\css\bootstrap.min.css" />
     <Content Include="assets\bootstrap\js\bootstrap.min.js" />
-    <Content Include="assets\img\backgrounds\1.jpg" />
-    <Content Include="assets\img\backgrounds\2.jpg" />
-    <Content Include="assets\img\backgrounds\3.jpg" />
-    <Content Include="assets\img\backgrounds\4 %281%29.jpg" />
-    <Content Include="assets\img\backgrounds\4%402x.jpg" />
-    <Content Include="assets\img\backgrounds\4.jpg" />
     <Content Include="assets\img\backgrounds\5.jpg" />
+    <Content Include="assets\img\backgrounds\4.jpg" />
+    <Content Include="assets\img\backgrounds\1.jpg" />
+    <Content Include="assets\img\backgrounds\3.jpg" />
     <Content Include="assets\img\backgrounds\6.jpg" />
     <Content Include="assets\img\loading.gif" />
     <Content Include="assets\img\logo%402x.png" />
@@ -334,8 +331,6 @@
     <Content Include="Images\orderedList8.png" />
     <Content Include="Images\orderedList9.png" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
@@ -347,6 +342,7 @@
     <Content Include="Views\Shared\_testimonials.cshtml" />
     <Content Include="Views\Shared\_about.cshtml" />
     <Content Include="Views\Shared\_contact.cshtml" />
+    <Content Include="Views\Shared\_menu.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
